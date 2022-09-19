@@ -1,0 +1,24 @@
+print("This Is My Bio Data")
+#Enter Your Name
+Name = (input("Enter Your Name:"))
+#Enter Your father name
+Fname = (input("Enter your Father's Name:"))
+#Enter your age
+age = int(input("Enter your Age: "))
+
+#if age is less then 20 print I am young.
+if age <= 20:
+    print("I am young")
+#if age is less then 30 print I am vicenarian.
+elif age <= 30:
+    print("I am vicenarian ")
+#if age is less then 40 print I am tricenarian.
+elif age <= 40:
+    print("I am tricenarian")
+#if age is less then 50 print I am quadragenarian.
+elif age <= 50:
+    print("I am quadragenarian")
+else:
+    print("I am old man")
+
+print("Enjoy!!")
